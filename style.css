@@ -1,0 +1,177 @@
+body{
+	margin: 0;
+}
+.nav{
+	background-color: #CCA195;
+	opacity: .7;
+	position: fixed;
+	width: 100%;
+}
+.navbar{
+	
+	padding-top: 20px;
+}
+.navmob{
+	display: none;
+}
+.slider-text{
+	text-align: center;
+	margin-top: 25%;
+	color: white;
+}
+.slider-text h1{
+	font-weight: bold;
+}
+.slider-text h4{
+	color: #D7D4D4;
+	font-size: 16px;
+
+}
+.icon{
+	width: 10%;
+	margin: 4% 45%;
+}
+.header{
+	background-image: url('header.jpg');
+	height: 100vh;
+	/*width: 100%;*/
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+
+}
+.button{
+	background-color: orange;
+	border-radius: 25px;
+	/*margin: 3% 50%; */
+	margin-top: 4%;
+}
+.button:hover{
+	background-color: powderblue;
+	
+
+}
+.find-section{
+	background-color: orange;
+}
+.find-text h1{
+	text-align: center;
+}
+.find-text h4{
+	text-align: center;
+}
+.iconwhite{
+	width: 10%;
+	margin: 4% 45%;
+}
+.find-text{
+	padding: 5% 0%;
+}
+.button-white{
+	background-color: white;
+	margin: 2% 40%;
+
+
+}
+.fafa{
+	color: orange;
+}
+.service-text{
+	text-align: center;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition-delay:1s;
+
+	
+}
+.layout{
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	opacity: .7;
+	top: 0;
+	position: absolute;
+	display: none;
+	transition-delay: 1s;
+
+}
+.pic{
+	margin: 0;
+	padding: 0;
+	transition-delay: 1s;
+
+}
+.layout h6{
+	transform: translateY(-50%);
+	margin-top: 50px;
+	margin-left: 120px;
+}
+.layout h3{
+	transform: translateY(-50%);
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.box:hover .layout{
+	display: block;
+	transition: 0s ease 1s;
+}
+.download{
+	/*border: 2px solid black;*/
+	background-color: #17100E;
+	color: white;
+}
+.download_section{
+	text-align: center;
+	margin: 30px 0px;
+}
+.text{
+	text-align: center;
+}
+.text1{
+	margin-top: 10px;
+}
+
+.last_text{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*font-family: 'Gloria Hallelujah', cursive;*/
+}
+.footer{
+	background-color: #17100E;
+}
+.name{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 767px) {
+	
+	.navmob{
+		display: block;
+		position: fixed;
+		background-color: #CCA195; 
+		width: 100%;
+		text-align: center;
+	}
+	.mobile{
+		display: inline-block;
+		text-align: center;
+	}
+	.navbar{
+		display: none;
+	}
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+
+@media (min-width: @screen-lg-min) { ... }
